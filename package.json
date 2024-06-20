@@ -3,7 +3,12 @@
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
+    "devTW": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "vinxi build",
+    "buildTW": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "buildAll": "npm run buildTW && npm run build",
+    "serve": "serve ./.output/public/",
+    "buildAndServe": "npm run buildAll && npm run serve",
     "start": "vinxi start",
     "version": "vinxi version"
   },
