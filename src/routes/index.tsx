@@ -9,7 +9,7 @@ export default function Home() {
       {/* Background */}
       <div class="absolute w-full h-full max-h-[90vh] overflow-hidden flex justify-center items-center">
         <img
-          src={"/title_img_home.jpg"}
+          src={"./title_img_home.jpg"}
           class="flex-shrink-0 min-h-full min-w-full max-h-[90vh] md:max-h-none max-w-none md:max-w-full"
           alt="Solid"
         />
