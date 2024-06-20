@@ -11,7 +11,7 @@ import {
 } from "~/components/ui/sheet"
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import {FaSolidBars, FaSolidTruck} from "./icons/solidicons";
+import {FaSolidBars} from "./icons/solidicons";
 
 export default function Nav() {
   const location = useLocation();
@@ -20,7 +20,7 @@ export default function Nav() {
   return (
     <nav class="bg-sky-700 flex justify-between items-center fixed top-0 z-50 w-full">
       <A href="/" class="items-center flex mx-5 my-2">
-        <FaSolidTruck/>
+        <img width="1em" height="1em" src={import.meta.env.SERVER_BASE_URL + "/icon.svg"} alt="icon" />
       </A>
 
       <ul class="container justify-end items-center p-3 text-gray-200 hidden md:flex">
