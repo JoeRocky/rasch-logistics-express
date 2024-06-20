@@ -1,1 +1,0 @@
-import{w as r,v as a,x as o,f as s,q as c}from"./web-C28mZ6dD.js";const u=c(),i=(t,e,n)=>(d({tag:t,props:e,setting:n,id:r(),get name(){return e.name||e.property}}),null);function d(t){const e=a(u);if(!e)throw new Error("<MetaProvider /> should be in the tree");o(()=>{const n=e.addTag(t);s(()=>e.removeTag(t,n))})}const f=t=>i("title",t,{escape:!0,close:!0});export{f as T};
