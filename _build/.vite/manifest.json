@@ -3,61 +3,70 @@
     "file": "assets/HttpStatusCode-DjTx85av.js",
     "name": "HttpStatusCode"
   },
-  "_index-DfhiahPC.js": {
-    "file": "assets/index-DfhiahPC.js",
+  "_index-BzUayZfD.js": {
+    "file": "assets/index-BzUayZfD.js",
     "name": "index"
   },
+  "_routing-DVJfsetU.js": {
+    "file": "assets/routing-DVJfsetU.js",
+    "name": "routing",
+    "imports": [
+      "_index-BzUayZfD.js"
+    ]
+  },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-D3R71v0V.js",
+    "file": "assets/_...404_-eIFZowo6.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-DfhiahPC.js",
+      "_index-BzUayZfD.js",
       "_HttpStatusCode-DjTx85av.js"
     ]
   },
   "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-4qboGMXP.js",
+    "file": "assets/about-CaL1arrq.js",
     "name": "about",
     "src": "src/routes/about.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-DfhiahPC.js"
+      "_index-BzUayZfD.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-COGYoUCJ.js",
+    "file": "assets/index-C0ZBW29j.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-DfhiahPC.js"
+      "_index-BzUayZfD.js",
+      "_routing-DVJfsetU.js"
     ],
     "css": [
       "assets/index-7whypOeP.css"
     ]
   },
   "src/routes/test/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-C4sq8fEn.js",
+    "file": "assets/index-DBkHIkPc.js",
     "name": "index",
     "src": "src/routes/test/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-DfhiahPC.js"
+      "_index-BzUayZfD.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DL_qQ6sA.js",
+    "file": "assets/client-C_2z-ewc.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_index-DfhiahPC.js",
+      "_index-BzUayZfD.js",
+      "_routing-DVJfsetU.js",
       "_HttpStatusCode-DjTx85av.js"
     ],
     "dynamicImports": [

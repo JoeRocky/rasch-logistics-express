@@ -1,1 +1,0 @@
-import{p as n,C as i,w as l,j as s,y as m,T as o}from"./index-DfhiahPC.js";var p=m("<main><!$><!/><h1>Test");function x(){return(()=>{var e=n(p),r=e.firstChild,[t,a]=i(r.nextSibling);return t.nextSibling,l(e,s(o,{children:"Test"}),t,a),e})()}export{x as default};

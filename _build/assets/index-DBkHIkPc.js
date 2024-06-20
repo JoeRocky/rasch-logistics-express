@@ -1,0 +1,1 @@
+import{i as n,p as i,j as l,b as s,t as m,T as o}from"./index-BzUayZfD.js";var p=m("<main><!$><!/><h1>Test");function x(){return(()=>{var e=n(p),r=e.firstChild,[t,a]=i(r.nextSibling);return t.nextSibling,l(e,s(o,{children:"Test"}),t,a),e})()}export{x as default};
