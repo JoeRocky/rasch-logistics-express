@@ -1,4 +1,5 @@
 import { Title } from "@solidjs/meta";
+import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
         </a>{" "}
         to learn how to build SolidStart apps.
       </p>
+      <A href="/about">About</A>
+      <A href="/test">Test</A>
     </main>
   );
 }
