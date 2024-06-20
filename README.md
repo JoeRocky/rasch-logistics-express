@@ -22,3 +22,8 @@ Source-Code for the Rasch Logistics Express Website
 - [ ] Kontakt Formular funktionsfähig machen 
 - [ ] Neues Impressum hinzufügen
 - [ ] Neue Datenschutzerklärung hinzufügen
+---
+- [ ] Website Fertig stellen
+- [ ] Warnhinweise entfernen
+- [ ] Neue Domain verbinden
+- [ ] BASE_PATH bearbeiten
