@@ -3,7 +3,7 @@ import { FaSolidPhone, FiMail} from "./icons/solidicons";
 import { Separator } from "./ui/separator";
 import { buttonVariants } from "./ui/button";
 import { twMerge } from "tailwind-merge";
-import { email, openingDays, openingHours, phonenumber, preurl } from "~/lib/data";
+import { email, openingDays, openingHours, phonenumber } from "~/lib/data";
 
 export default function Footer() {
   return (
@@ -61,7 +61,7 @@ export default function Footer() {
               <p>{email}</p>
           </div>
           <div class="mx-2">
-            <A href={preurl + "/kontakt"} class={twMerge(buttonVariants({variant: "outline"}), " font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 border-gray-200")}>
+            <A href={"/kontakt"} class={twMerge(buttonVariants({variant: "outline"}), " font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 border-gray-200")}>
               Kontaktier uns
             </A>
           </div>
@@ -80,8 +80,8 @@ export default function Footer() {
             <p>rechtliche Unterlagen</p>
           </div>
           <div class="py-2 flex flex-col">
-            <A href={preurl + "/impressum"} class="hover:underline">Impressum</A>
-            <A href={preurl + "/datenschutz"} class="py-1 hover:underline">Datenschutz</A>
+            <A href={"/impressum"} class="hover:underline">Impressum</A>
+            <A href={"/datenschutz"} class="py-1 hover:underline">Datenschutz</A>
           </div>
         </li>
 

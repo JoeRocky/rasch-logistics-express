@@ -12,7 +12,6 @@ import {
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import {FaSolidBars, FaSolidTruck} from "./icons/solidicons";
-import { preurl } from "~/lib/data";
 
 export default function Nav() {
   const location = useLocation();
@@ -25,17 +24,17 @@ export default function Nav() {
       </A>
 
       <ul class="container justify-end items-center p-3 text-gray-200 hidden md:flex">
-        <li class={`border-b-2 ${active(preurl + "/")} mx-1.5 sm:mx-6`}>
-          <A href={preurl + "/"}>Home</A>
+        <li class={`border-b-2 ${active("/")} mx-1.5 sm:mx-6`}>
+          <A href={"/"}>Home</A>
         </li>
-        <li class={`border-b-2 ${active(preurl + "/transporte")} mx-1.5 sm:mx-6`}>
-          <A href={preurl + "/transporte"}>Transporte</A>
+        <li class={`border-b-2 ${active("/transporte")} mx-1.5 sm:mx-6`}>
+          <A href={"/transporte"}>Transporte</A>
         </li>
-        <li class={`border-b-2 ${active(preurl + "/kurierfahrten")} mx-1.5 sm:mx-6`}>
-          <A href={preurl + "/kurierfahrten"}>Kurierfahrten</A>
+        <li class={`border-b-2 ${active("/kurierfahrten")} mx-1.5 sm:mx-6`}>
+          <A href={"/kurierfahrten"}>Kurierfahrten</A>
         </li>
-        <li class={`border-b-2 ${active(preurl + "/kontakt")} mx-1.5 sm:mx-6`}>
-          <A href={preurl + "/kontakt"}>Kontakt</A>
+        <li class={`border-b-2 ${active("/kontakt")} mx-1.5 sm:mx-6`}>
+          <A href={"/kontakt"}>Kontakt</A>
         </li>
       </ul>
 
@@ -56,17 +55,17 @@ export default function Nav() {
           <Separator class="my-4 bg-gray-200 border-gray-200" />
           
           <ul class="container text-gray-200 flex flex-col">
-            <li class={`border-b-2 ${active(preurl + "/")} my-1.5 mx-1.5 sm:mx-6`}>
-              <A href={preurl + "/"}>Home</A>
+            <li class={`border-b-2 ${active("/")} my-1.5 mx-1.5 sm:mx-6`}>
+              <A href={"/"}>Home</A>
             </li>
-            <li class={`border-b-2 ${active(preurl + "/transporte")} my-1.5 mx-1.5 sm:mx-6`}>
-              <A href={preurl + "/transporte"}>Transporte</A>
+            <li class={`border-b-2 ${active("/transporte")} my-1.5 mx-1.5 sm:mx-6`}>
+              <A href={"/transporte"}>Transporte</A>
             </li>
-            <li class={`border-b-2 ${active(preurl + "/kurierfahrten")} my-1.5 mx-1.5 sm:mx-6`}>
-              <A href={preurl + "/kurierfahrten"}>Kurierfahrten</A>
+            <li class={`border-b-2 ${active("/kurierfahrten")} my-1.5 mx-1.5 sm:mx-6`}>
+              <A href={"/kurierfahrten"}>Kurierfahrten</A>
             </li>
-            <li class={`border-b-2 ${active(preurl + "/kontakt")} my-1.5 mx-1.5 sm:mx-6`}>
-              <A href={preurl + "/kontakt"}>Kontakt</A>
+            <li class={`border-b-2 ${active("/kontakt")} my-1.5 mx-1.5 sm:mx-6`}>
+              <A href={"/kontakt"}>Kontakt</A>
             </li>
           </ul>
 
@@ -74,11 +73,11 @@ export default function Nav() {
 
           <SheetFooter>
             <ul class="container text-gray-200 flex flex-col">
-              <li class={`border-b-2 ${active(preurl + "/impressum")} my-1.5 mx-1.5 sm:mx-6`}>
-                <A href={preurl + "/impressum"}>Impressum</A>
+              <li class={`border-b-2 ${active("/impressum")} my-1.5 mx-1.5 sm:mx-6`}>
+                <A href={"/impressum"}>Impressum</A>
               </li>
-              <li class={`border-b-2 ${active(preurl + "/datenschutz")} my-1.5 mx-1.5 sm:mx-6`}>
-                <A href={preurl + "/datenschutz"}>Datenschutz</A>
+              <li class={`border-b-2 ${active("/datenschutz")} my-1.5 mx-1.5 sm:mx-6`}>
+                <A href={"/datenschutz"}>Datenschutz</A>
               </li>
             </ul>
           </SheetFooter>
