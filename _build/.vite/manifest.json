@@ -103,7 +103,7 @@
     ]
   },
   "src/routes/datenschutz.tsx?pick=default&pick=$css": {
-    "file": "assets/datenschutz-X-uTHfPH.js",
+    "file": "assets/datenschutz-CJ0TP6y0.js",
     "name": "datenschutz",
     "src": "src/routes/datenschutz.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -115,7 +115,7 @@
     ]
   },
   "src/routes/impressum.tsx?pick=default&pick=$css": {
-    "file": "assets/impressum-Bgo4Q3EP.js",
+    "file": "assets/impressum-Cb9-Sis1.js",
     "name": "impressum",
     "src": "src/routes/impressum.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -127,7 +127,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BYxlzAQH.js",
+    "file": "assets/index-rYUp7w_I.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -140,7 +140,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-ByuGoroD.js",
+    "file": "assets/kontakt-SFzGJkht.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -154,7 +154,7 @@
     ]
   },
   "src/routes/kurierfahrten.tsx?pick=default&pick=$css": {
-    "file": "assets/kurierfahrten-COglWoQW.js",
+    "file": "assets/kurierfahrten-Cg4OnRt2.js",
     "name": "kurierfahrten",
     "src": "src/routes/kurierfahrten.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -165,7 +165,7 @@
     ]
   },
   "src/routes/transporte.tsx?pick=default&pick=$css": {
-    "file": "assets/transporte-BBSL3Hv1.js",
+    "file": "assets/transporte-D5xivkvy.js",
     "name": "transporte",
     "src": "src/routes/transporte.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -176,7 +176,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CLKIbPn7.js",
+    "file": "assets/client-CCZSGq--.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -198,7 +198,7 @@
       "src/routes/transporte.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-B57lEphV.css"
+      "assets/client-CnDgwPsa.css"
     ],
     "assets": [
       "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
