@@ -9,6 +9,7 @@ Source-Code for the Rasch Logistics Express Website
 - [TailwindCSS](https://tailwindcss.com/)
 - [Solid-Icons](https://solid-icons.vercel.app/)
 - [Github-Pages](https://pages.github.com/)
+- [Docs: SolidJS-Github-Pages](https://dev.to/lexlohr/deploy-a-solid-start-app-on-github-pages-2l2l)
 
 ## Todo
 - [ ] Alle Kontaktdaten hinzufügen

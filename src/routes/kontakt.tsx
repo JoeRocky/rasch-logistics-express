@@ -66,6 +66,21 @@ export default function Kontakt() {
           <Button size={"lg"} class="font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 ">Absenden</Button>
         </div>
       </div>
+
+      <form action="https://formsubmit.co/joemaxrocky@gmail.com" method="post">
+        <input type="hidden" name="_next" value={import.meta.env.BASE_URL + "/thanks"}></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="text" name="_honey" style="display:none"></input>
+        <div class="w-full my-2">
+          <Input type="text" id="vorname" name="name" placeholder="Vorname Nachname *" />
+        </div>
+        <div class="w-full my-2">
+          <Input type="email" id="email" name="email" placeholder="Email *" required/>
+        </div>
+        <div class="w-full my-2 flex justify-end">
+          <Button size={"lg"} class="font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 " type="submit">Absenden</Button>
+        </div>
+      </form>
     </section>
   </>
 
