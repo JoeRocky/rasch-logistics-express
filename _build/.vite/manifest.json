@@ -1,38 +1,34 @@
 {
-  "_button-BzgFENEO.js": {
-    "file": "assets/button-BzgFENEO.js",
+  "_button-C471pDKn.js": {
+    "file": "assets/button-C471pDKn.js",
     "name": "button",
     "imports": [
-      "_web-BBoO3_5S.js"
+      "_web-DCCGDGVH.js"
     ]
   },
-  "_components-CPjcdGJy.js": {
-    "file": "assets/components-CPjcdGJy.js",
+  "_components-Ch3xPk_F.js": {
+    "file": "assets/components-Ch3xPk_F.js",
     "name": "components",
     "imports": [
-      "_web-BBoO3_5S.js"
+      "_web-DCCGDGVH.js"
     ]
   },
-  "_data-BcZida45.js": {
-    "file": "assets/data-BcZida45.js",
-    "name": "data"
-  },
-  "_index-KOzVbNJv.js": {
-    "file": "assets/index-KOzVbNJv.js",
+  "_index-BJ3rjUUQ.js": {
+    "file": "assets/index-BJ3rjUUQ.js",
     "name": "index",
     "imports": [
-      "_web-BBoO3_5S.js"
+      "_web-DCCGDGVH.js"
     ]
   },
-  "_solidicons-BA0ORMD4.js": {
-    "file": "assets/solidicons-BA0ORMD4.js",
+  "_solidicons-DzvV5qjV.js": {
+    "file": "assets/solidicons-DzvV5qjV.js",
     "name": "solidicons",
     "imports": [
-      "_web-BBoO3_5S.js"
+      "_web-DCCGDGVH.js"
     ]
   },
-  "_web-BBoO3_5S.js": {
-    "file": "assets/web-BBoO3_5S.js",
+  "_web-DCCGDGVH.js": {
+    "file": "assets/web-DCCGDGVH.js",
     "name": "web"
   },
   "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff": {
@@ -92,101 +88,97 @@
     "src": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-CCJcd4yC.js",
+    "file": "assets/_...404_-DcaBVNr6.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_components-CPjcdGJy.js"
+      "_web-DCCGDGVH.js",
+      "_components-Ch3xPk_F.js"
     ]
   },
   "src/routes/datenschutz.tsx?pick=default&pick=$css": {
-    "file": "assets/datenschutz-CJ0TP6y0.js",
+    "file": "assets/datenschutz-EXC_qBoz.js",
     "name": "datenschutz",
     "src": "src/routes/datenschutz.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_index-KOzVbNJv.js",
-      "_data-BcZida45.js"
+      "_web-DCCGDGVH.js",
+      "_index-BJ3rjUUQ.js"
     ]
   },
   "src/routes/impressum.tsx?pick=default&pick=$css": {
-    "file": "assets/impressum-Cb9-Sis1.js",
+    "file": "assets/impressum-DHr0qTWt.js",
     "name": "impressum",
     "src": "src/routes/impressum.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_index-KOzVbNJv.js",
-      "_data-BcZida45.js"
+      "_web-DCCGDGVH.js",
+      "_index-BJ3rjUUQ.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-rYUp7w_I.js",
+    "file": "assets/index-DdAhRZn6.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_index-KOzVbNJv.js",
-      "_button-BzgFENEO.js",
-      "_components-CPjcdGJy.js"
+      "_web-DCCGDGVH.js",
+      "_index-BJ3rjUUQ.js",
+      "_button-C471pDKn.js",
+      "_components-Ch3xPk_F.js"
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-SFzGJkht.js",
+    "file": "assets/kontakt-BG0dtvgE.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_button-BzgFENEO.js",
-      "_solidicons-BA0ORMD4.js",
-      "_data-BcZida45.js",
-      "_index-KOzVbNJv.js"
+      "_web-DCCGDGVH.js",
+      "_button-C471pDKn.js",
+      "_solidicons-DzvV5qjV.js",
+      "_index-BJ3rjUUQ.js"
     ]
   },
   "src/routes/kurierfahrten.tsx?pick=default&pick=$css": {
-    "file": "assets/kurierfahrten-Cg4OnRt2.js",
+    "file": "assets/kurierfahrten-B1LEQdjA.js",
     "name": "kurierfahrten",
     "src": "src/routes/kurierfahrten.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_index-KOzVbNJv.js"
+      "_web-DCCGDGVH.js",
+      "_index-BJ3rjUUQ.js"
     ]
   },
   "src/routes/transporte.tsx?pick=default&pick=$css": {
-    "file": "assets/transporte-D5xivkvy.js",
+    "file": "assets/transporte-BNQCuvc6.js",
     "name": "transporte",
     "src": "src/routes/transporte.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_index-KOzVbNJv.js"
+      "_web-DCCGDGVH.js",
+      "_index-BJ3rjUUQ.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CCZSGq--.js",
+    "file": "assets/client-6yBXcs7f.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_web-BBoO3_5S.js",
-      "_button-BzgFENEO.js",
-      "_solidicons-BA0ORMD4.js",
-      "_components-CPjcdGJy.js",
-      "_data-BcZida45.js",
-      "_index-KOzVbNJv.js"
+      "_web-DCCGDGVH.js",
+      "_button-C471pDKn.js",
+      "_solidicons-DzvV5qjV.js",
+      "_index-BJ3rjUUQ.js",
+      "_components-Ch3xPk_F.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
