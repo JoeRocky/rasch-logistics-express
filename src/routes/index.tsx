@@ -1,3 +1,4 @@
+import { Title } from "@solidjs/meta";
 import { A } from "@solidjs/router";
 import { twMerge } from "tailwind-merge";
 import { buttonVariants } from "~/components/ui/button";
@@ -5,6 +6,7 @@ import { buttonVariants } from "~/components/ui/button";
 export default function Home() {
   return (
   <>
+    <Title>Home - Rasch Logistics Express</Title>
     <header class="text-center mx-auto text-gray-200 h-[90vh] max-h-[90vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[90vh] overflow-hidden flex justify-center items-center">
