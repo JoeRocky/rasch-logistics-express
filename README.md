@@ -12,6 +12,10 @@ Source-Code for the Rasch Logistics Express Website
 - [Docs: SolidJS-Github-Pages](https://dev.to/lexlohr/deploy-a-solid-start-app-on-github-pages-2l2l)
 
 ## Todo
+- [x] ...
+- [x] Logo
+- [x] Texte
+- [x] Kontakt Formular funktionsfähig machen 
 - [ ] Alle Kontaktdaten hinzufügen
   - [x] Öffnungszeiten
   - [x] Telefonnummer
@@ -20,11 +24,11 @@ Source-Code for the Rasch Logistics Express Website
   - [ ] Anschrift
   - [ ] USt.-ID
   - [ ] Geschäftsinhaber
-- [ ] Kontakt Formular funktionsfähig machen 
 - [ ] Neues Impressum hinzufügen
 - [ ] Neue Datenschutzerklärung hinzufügen
----
+### Abschluss
 - [ ] Website Fertig stellen
 - [ ] Warnhinweise entfernen
 - [ ] Neue Domain verbinden
-- [ ] BASE_PATH bearbeiten
+- [ ] Richtige Email verbinden
+- [ ] BASE_PATH anpassen9
