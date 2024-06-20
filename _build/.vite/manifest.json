@@ -13,8 +13,8 @@
       "_web-BBoO3_5S.js"
     ]
   },
-  "_data-DM3Xf7u1.js": {
-    "file": "assets/data-DM3Xf7u1.js",
+  "_data-DAv9kBMa.js": {
+    "file": "assets/data-DAv9kBMa.js",
     "name": "data",
     "imports": [
       "_web-BBoO3_5S.js"
@@ -121,7 +121,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-z3r01MiD.js",
+    "file": "assets/index-J7nPPXwy.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -134,7 +134,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-tgg2Px54.js",
+    "file": "assets/kontakt-C6_Po0rF.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -142,7 +142,7 @@
     "imports": [
       "_web-BBoO3_5S.js",
       "_button-BzgFENEO.js",
-      "_data-DM3Xf7u1.js",
+      "_data-DAv9kBMa.js",
       "_index-KOzVbNJv.js"
     ]
   },
@@ -169,14 +169,14 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DEvyqY7d.js",
+    "file": "assets/client-BFzArr7Q.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
       "_web-BBoO3_5S.js",
       "_button-BzgFENEO.js",
-      "_data-DM3Xf7u1.js",
+      "_data-DAv9kBMa.js",
       "_components-CPjcdGJy.js",
       "_index-KOzVbNJv.js"
     ],
