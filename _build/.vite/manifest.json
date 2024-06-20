@@ -1,82 +1,209 @@
 {
-  "_HttpStatusCode-DjTx85av.js": {
-    "file": "assets/HttpStatusCode-DjTx85av.js",
-    "name": "HttpStatusCode"
-  },
-  "_index-BzUayZfD.js": {
-    "file": "assets/index-BzUayZfD.js",
-    "name": "index"
-  },
-  "_routing-DVJfsetU.js": {
-    "file": "assets/routing-DVJfsetU.js",
-    "name": "routing",
+  "_button-B-UaWJ7X.js": {
+    "file": "assets/button-B-UaWJ7X.js",
+    "name": "button",
     "imports": [
-      "_index-BzUayZfD.js"
+      "_web-7_MqYq22.js"
     ]
   },
+  "_components-DGfSk_7t.js": {
+    "file": "assets/components-DGfSk_7t.js",
+    "name": "components",
+    "imports": [
+      "_web-7_MqYq22.js",
+      "_routing-CuTPl7pR.js"
+    ]
+  },
+  "_data-BkVHOfaV.js": {
+    "file": "assets/data-BkVHOfaV.js",
+    "name": "data"
+  },
+  "_routing-CuTPl7pR.js": {
+    "file": "assets/routing-CuTPl7pR.js",
+    "name": "routing",
+    "imports": [
+      "_web-7_MqYq22.js"
+    ]
+  },
+  "_web-7_MqYq22.js": {
+    "file": "assets/web-7_MqYq22.js",
+    "name": "web"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff": {
+    "file": "assets/inter-cyrillic-400-normal-JrS_4yms.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-400-normal-Df6ckaLK.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff": {
+    "file": "assets/inter-cyrillic-ext-400-normal-CzG7Kr3z.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff": {
+    "file": "assets/inter-greek-400-normal-DvIPHDQ7.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2": {
+    "file": "assets/inter-greek-400-normal-DQXyrmoy.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff": {
+    "file": "assets/inter-greek-ext-400-normal-_Rr29XE2.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2": {
+    "file": "assets/inter-greek-ext-400-normal-CIdlr5YK.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff": {
+    "file": "assets/inter-latin-400-normal-Cdi8t5Mu.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2": {
+    "file": "assets/inter-latin-400-normal-BT1H-PT_.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff": {
+    "file": "assets/inter-latin-ext-400-normal-8tIzm-yw.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2": {
+    "file": "assets/inter-latin-ext-400-normal-D3W-OpO-.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff": {
+    "file": "assets/inter-vietnamese-400-normal-DIOGfGLL.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2": {
+    "file": "assets/inter-vietnamese-400-normal-Cnt0N5Vm.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2"
+  },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-eIFZowo6.js",
+    "file": "assets/_...404_-BMfyML9G.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-BzUayZfD.js",
-      "_HttpStatusCode-DjTx85av.js"
+      "_web-7_MqYq22.js",
+      "_data-BkVHOfaV.js",
+      "_components-DGfSk_7t.js",
+      "_routing-CuTPl7pR.js"
     ]
   },
-  "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-CaL1arrq.js",
-    "name": "about",
-    "src": "src/routes/about.tsx?pick=default&pick=$css",
+  "src/routes/datenschutz.tsx?pick=default&pick=$css": {
+    "file": "assets/datenschutz-DK3HuTqr.js",
+    "name": "datenschutz",
+    "src": "src/routes/datenschutz.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-BzUayZfD.js"
+      "_web-7_MqYq22.js",
+      "_data-BkVHOfaV.js"
+    ]
+  },
+  "src/routes/impressum.tsx?pick=default&pick=$css": {
+    "file": "assets/impressum-PVhoEUyG.js",
+    "name": "impressum",
+    "src": "src/routes/impressum.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-7_MqYq22.js",
+      "_data-BkVHOfaV.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-C0ZBW29j.js",
+    "file": "assets/index-Cju2Defz.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-BzUayZfD.js",
-      "_routing-DVJfsetU.js"
-    ],
-    "css": [
-      "assets/index-7whypOeP.css"
+      "_web-7_MqYq22.js",
+      "_button-B-UaWJ7X.js",
+      "_data-BkVHOfaV.js",
+      "_components-DGfSk_7t.js",
+      "_routing-CuTPl7pR.js"
     ]
   },
-  "src/routes/test/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-DBkHIkPc.js",
-    "name": "index",
-    "src": "src/routes/test/index.tsx?pick=default&pick=$css",
+  "src/routes/kontakt.tsx?pick=default&pick=$css": {
+    "file": "assets/kontakt-C9fU3MuY.js",
+    "name": "kontakt",
+    "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-BzUayZfD.js"
+      "_web-7_MqYq22.js",
+      "_button-B-UaWJ7X.js",
+      "_data-BkVHOfaV.js"
+    ]
+  },
+  "src/routes/kurierfahrten.tsx?pick=default&pick=$css": {
+    "file": "assets/kurierfahrten-ByWVL7Vi.js",
+    "name": "kurierfahrten",
+    "src": "src/routes/kurierfahrten.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-7_MqYq22.js",
+      "_data-BkVHOfaV.js"
+    ]
+  },
+  "src/routes/transporte.tsx?pick=default&pick=$css": {
+    "file": "assets/transporte-BQd2zAAO.js",
+    "name": "transporte",
+    "src": "src/routes/transporte.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-7_MqYq22.js",
+      "_data-BkVHOfaV.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-C_2z-ewc.js",
+    "file": "assets/client-Bg4vfsZ3.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_index-BzUayZfD.js",
-      "_routing-DVJfsetU.js",
-      "_HttpStatusCode-DjTx85av.js"
+      "_web-7_MqYq22.js",
+      "_routing-CuTPl7pR.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
-      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/datenschutz.tsx?pick=default&pick=$css",
+      "src/routes/impressum.tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
-      "src/routes/test/index.tsx?pick=default&pick=$css"
+      "src/routes/kontakt.tsx?pick=default&pick=$css",
+      "src/routes/kurierfahrten.tsx?pick=default&pick=$css",
+      "src/routes/transporte.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-CSUIEcYF.css"
+      "assets/client-B57lEphV.css"
+    ],
+    "assets": [
+      "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
+      "assets/inter-cyrillic-ext-400-normal-CzG7Kr3z.woff",
+      "assets/inter-cyrillic-400-normal-Df6ckaLK.woff2",
+      "assets/inter-cyrillic-400-normal-JrS_4yms.woff",
+      "assets/inter-greek-ext-400-normal-CIdlr5YK.woff2",
+      "assets/inter-greek-ext-400-normal-_Rr29XE2.woff",
+      "assets/inter-greek-400-normal-DQXyrmoy.woff2",
+      "assets/inter-greek-400-normal-DvIPHDQ7.woff",
+      "assets/inter-vietnamese-400-normal-Cnt0N5Vm.woff2",
+      "assets/inter-vietnamese-400-normal-DIOGfGLL.woff",
+      "assets/inter-latin-ext-400-normal-D3W-OpO-.woff2",
+      "assets/inter-latin-ext-400-normal-8tIzm-yw.woff",
+      "assets/inter-latin-400-normal-BT1H-PT_.woff2",
+      "assets/inter-latin-400-normal-Cdi8t5Mu.woff"
     ]
   }
 }
