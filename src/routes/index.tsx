@@ -40,31 +40,44 @@ export default function Home() {
     
     {/* Second Section */}
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%] py-10">
+
       <h1 class="uppercase text-2xl lg:text-3xl my-3">Ihr zuverlässiger Transportpartner!</h1>
+
       <div class="my-10">
-        <h2 class=" text-xl lg:text-2xl my-2">Ihr Ansprechpartner für verschiedene Transportaufträge bundesweit</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">Ihr Experte für bundesweite Transportlösungen</h2>
         <p>
-        Für die anspruchsvollen Transporte haben Sie mit uns den richtigen Ansprechpartner gefunden. Wir sind auf diverse Transportdienstleistungen spezialisiert. Sie profitieren von einer professionellen Dienstleistung und haben die Gewissheit, dass Ihre Produkte sicher an den Zielort gelangen. Sprechen Sie uns auf unseren Service an, wir stehen als Transportdienst bereit.
+        Herzlich willkommen bei Ihrem kompetenten Ansprechpartner für vielfältige Transportaufträge in ganz Deutschland. Wir bieten spezialisierte Transportdienstleistungen, die höchsten Ansprüchen gerecht werden. Mit uns profitieren Sie von professionellen Dienstleistungen und können sicher sein, dass Ihre Produkte zuverlässig und sicher ihr Ziel erreichen. Kontaktieren Sie uns und erfahren Sie mehr über unseren umfassenden Service.
         </p>
       </div>
+
       <div class="my-10">
-        <h2 class=" text-xl lg:text-2xl my-2">Transportdienst</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">Unsere Transportdienstleistungen</h2>
         <p>
-        Zu unserem Angebot gehören auch Eilaufträge. Denn wir richten unsere Dienstleistung flexibel nach Ihrem Bedarf aus und sind mit diesem Konzept erfolgreich am Markt vertreten. Kommen Sie zu uns für Ihren deutschlandweiten Transport. 
-        <br/>Für unsere Kunden finden wir immer eine passende Lösung. Dabei spielt es für uns keine Rolle, was Sie transportieren möchten.
+        Wir bieten flexible und maßgeschneiderte Transportlösungen, die genau auf Ihre Bedürfnisse abgestimmt sind. Dazu gehören auch Eilaufträge, die wir schnell und zuverlässig ausführen. Unser Erfolgsgeheimnis liegt in unserer Anpassungsfähigkeit und unserer Kundenorientierung. Für Ihren deutschlandweiten Transport sind wir der ideale Partner. Egal, was Sie transportieren möchten – wir finden stets die passende Lösung für Sie.
         </p>
       </div>
+
       <div class="my-10">
-        <h2 class="text-xl lg:text-2xl my-2">Sonderfahrten und terminierte Transporte<br/> Die Fahrten werden auf Wunsch deutschlandweit durchgeführt. </h2>
+        <h2 class=" text-xl lg:text-2xl my-2">Sonderfahrten und termingerechte Transporte</h2>
+        <p>
+        Unsere Sonderfahrten und termingerechten Transporte führen wir auf Wunsch in ganz Deutschland durch.
+        </p>
       </div>
+
       <div class="my-10">
-        <h2 class="text-xl lg:text-2xl my-2">Wir sind ein Kurierdienst, der wirklich etwas bewegt. Bei uns kommt die bestellte Ware ordnungsgemäß und pünktlich am Bestimmungsort an. Verlassen Sie sich auf unsere Erfahrung und setzen Sie mit uns auf ein modernes Transportunternehmen.</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">Ihr zuverlässiger Kurierdienst</h2>
+        <p>
+        Wir sind ein Kurierdienst, der wirklich etwas bewegt. Bei uns kommt Ihre bestellte Ware ordnungsgemäß und pünktlich an ihrem Bestimmungsort an. Vertrauen Sie auf unsere Erfahrung und setzen Sie auf ein modernes Transportunternehmen, das Ihre Anforderungen erfüllt.
+        </p>
       </div>
+
       <div class="my-10">
         <p>
-        Wenn Sie maßgeschneiderte Transportlösungen suchen, sind Sie bei uns gut aufgehoben. Wir engagieren uns für Ihren Transportauftrag und stellen den Erfolg sicher. Das ist ein Vorteil für viele gewerbliche Kunden. Wer an zuverlässigen Transportfahrten interessiert ist, kommt bundesweit zu uns. Auf Ihren Auftrag sind wir bereits gespannt und wir freuen uns auf die Zusammenarbeit.
-        </p>  
+        Wenn Sie maßgeschneiderte Transportlösungen suchen, sind Sie bei uns genau richtig. Wir engagieren uns voll und ganz für Ihren Transportauftrag und stellen sicher, dass er erfolgreich abgewickelt wird. Diesen Vorteil schätzen viele unserer gewerblichen Kunden. Wer zuverlässige Transportdienstleistungen sucht, kommt bundesweit zu uns. Wir freuen uns auf Ihren Auftrag und auf eine erfolgreiche Zusammenarbeit.
+        </p>
       </div>
+
+
     </section>
   </>
   );

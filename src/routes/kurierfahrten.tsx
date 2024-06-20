@@ -25,23 +25,27 @@ export default function Kurierfahrten() {
     </header>
     
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
+
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Wir bringen alles sicher ans Ziel</h2>
         <p>
-        Für Direktfahrten und den Kurierdienst sind wir Ihr wichtigster Ansprechpartner in der Region. Wir überzeugen mit einem schnellen Straßentransport ohne Kompromisse und bringen Ihre Produkte von Tür zu Tür. Für die Kurierfahrten wählen wir passende Fahrzeuge aus unserem Bestand aus. Verlassen Sie sich auf uns. Nutzen Sie unser Angebot für Same Day Delivery. Noch am selben Tag oder sonst schnellstmöglich stellen wir alles wie gewünscht zu. Die Abholung erfolgt punktgenau und ebenso zuverlässig wie die Zustellung. Gerne beraten wir Sie zu den Möglichkeiten, die Ihnen unser Service zum Beispiel für Fahrten für Sondertransporte bietet.
+        Für Direktfahrten und Kurierdienste sind wir Ihr zuverlässiger Ansprechpartner in der Region. Wir bieten schnellen Straßentransport ohne Kompromisse und bringen Ihre Produkte direkt von Tür zu Tür. Für Kurierfahrten wählen wir die passenden Fahrzeuge aus unserem umfangreichen Fuhrpark aus. Nutzen Sie unser Angebot für Same Day Delivery – noch am selben Tag oder so schnell wie möglich stellen wir Ihre Sendungen zu. Sowohl die Abholung als auch die Zustellung erfolgen punktgenau und zuverlässig. Lassen Sie sich von uns zu den vielfältigen Möglichkeiten unseres Services, einschließlich Sondertransporte, beraten.
         </p>
       </div>
+
       <div class="my-10">
-        <h2 class=" text-xl lg:text-2xl my-2">Kurierdienst mit viel Erfahrung jetzt für Sie im Einsatz</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">Kurierdienst mit viel Erfahrung - jetzt für Sie im Einsatz</h2>
         <p>
-        Wir bieten Ihnen maßgeschneiderte Transportlösungen an und stellen damit Ihre Zufriedenheit als gewerblicher Kunde sicher. Unsere Transporte sind für unterschiedliche Aufträge hervorragend geeignet. Wir übernehmen hier Aufgaben, die nur wenige Kurierdienste abdecken. Sie haben mit uns einen zuverlässigen Partner für Ihr Transportanliegen gefunden. Eine erstklassige Qualität der Auftragsausführung ist bei uns der Standard. Überzeugen Sie sich am besten selbst davon. Wir bewegen etwas und stellen Ihnen dafür unsere dynamische Transporte zur Verfügung.
+        Wir bieten maßgeschneiderte Transportlösungen und garantieren damit Ihre Zufriedenheit als gewerblicher Kunde. Unsere Transporte sind ideal für verschiedenste Aufträge und decken Aufgaben ab, die nur wenige Kurierdienste leisten können. Mit uns haben Sie einen verlässlichen Partner für Ihr Transportanliegen gefunden. Erstklassige Qualität in der Auftragsausführung ist bei uns der Standard. Überzeugen Sie sich selbst von unserem Engagement. Wir setzen dynamische Transportlösungen ein, um Ihre Fracht sicher und pünktlich zu liefern.
         </p>
       </div>
+
       <div class="my-10">
         <p>
-        Planbare Kosten gehören bei uns immer dazu. Denn wir setzen auf eine ökonomisch optimierte Routenführung. Das klingt für Sie interessant? Dann freuen wir uns bereits auf Ihre Anfrage.
+        Unsere transparenten und planbaren Kosten sind ein weiterer Vorteil. Wir optimieren unsere Routenführung ökonomisch, um Ihnen kosteneffiziente Lösungen anzubieten. Klingt das interessant für Sie? Dann freuen wir uns auf Ihre Anfrage.
         </p>
       </div>
+
     </section>
   </>
 

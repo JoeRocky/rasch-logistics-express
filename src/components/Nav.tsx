@@ -20,7 +20,7 @@ export default function Nav() {
   return (
     <nav class="bg-sky-700 flex justify-between items-center fixed top-0 z-50 w-full">
       <A href="/" class="items-center flex mx-5 my-2">
-        <img width="1em" height="1em" src={import.meta.env.SERVER_BASE_URL + "/icon.svg"} alt="icon" />
+        <img width="30px" height="1em" src={import.meta.env.SERVER_BASE_URL + "/icon.svg"} alt="icon" />
       </A>
 
       <ul class="container justify-end items-center p-3 text-gray-200 hidden md:flex">

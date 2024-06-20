@@ -1,4 +1,5 @@
 import { Title } from "@solidjs/meta";
+import { email, phonenumber } from "~/lib/data";
 
 export default function Datenschutz() {
   return (
@@ -26,6 +27,7 @@ export default function Datenschutz() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Datenschutzerklärung</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">HINWEIß: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
         <p>
         Allgemeiner Hinweis und Pflichtinformationen
         </p>
@@ -38,12 +40,12 @@ export default function Datenschutz() {
       </div>
       <div class="my-10">
         <p>
-        SKY TRANSPORT<br/>
-        Rhönweg 13<br/>
-        30657 Hannover<br/>
-        Geschäftsinhaber: Murad Buroo<br/>
-        E-Mail: info@skytransport.de<br/>
-        Tel.: 0159 01409372
+        Rasch Logistics Express<br/>
+        ?<br/>
+        ?<br/>
+        Geschäftsinhaber: ?<br/>
+        E-Mail: {email}<br/>
+        Tel.: {phonenumber}
         </p>
       </div>
       <div class="my-10">

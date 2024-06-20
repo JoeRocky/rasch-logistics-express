@@ -24,23 +24,25 @@ export default function Transporte() {
     </header>
     
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
+
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Die passende Lösung für Ihren Transport</h2>
         <p>
-          Welche Güter Sie auch transportieren möchten uns was immer Ihre Anforderungen sind: Wir setzen die Transportfahrten zu Ihrer Zufriedenheit um. Dabei erhalten Sie bei uns alle Leistungen aus einer Hand, denn wir beraten, planen, verladen und führen den Transport durch. Verlassen Sie sich auf unsere Erfahrung und Fähigkeiten in diesem Bereich. Zögern Sie nicht und sprechen Sie uns auf unseren Kurierdienst an. Wir freuen uns auf Sie.
+        Egal, welche Güter Sie transportieren möchten oder welche Anforderungen Sie haben: Wir setzen Ihre Transportfahrten zu Ihrer vollsten Zufriedenheit um. Bei uns erhalten Sie alle Leistungen aus einer Hand – von der Beratung über die Planung und Verladung bis hin zur Durchführung des Transports. Vertrauen Sie auf unsere langjährige Erfahrung und unser Know-how in diesem Bereich. Zögern Sie nicht, uns auf unseren Kurierdienst anzusprechen. Wir freuen uns darauf, Sie zu unterstützen.
         </p>
       </div>
+
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Transportfahrten – profitieren Sie von unserem flexiblen Service</h2>
         <p>
-        Wir führen die Fahrten für Sondertransporte und alle anderen nach Ihren Vorgaben durch. Dazu gehört auch, dass wir in ganz Deutschland für Sie unterwegs sind. Ihre kundenindividuellen Anforderungen stehen immer im Vordergrund.
+        Unsere Transportfahrten werden genau nach Ihren Vorgaben durchgeführt. Wir sind in ganz Deutschland für Sie unterwegs und stellen sicher, dass Ihre individuellen Anforderungen stets im Vordergrund stehen. Ob Sondertransporte oder reguläre Lieferungen – wir sind flexibel und zuverlässig.
         </p>
       </div>
+
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Fahrten für Sondertransporte</h2>
         <p>
-        Bei uns kommen viele Vorteile zusammen. Wir bieten transparente Preise auf einem angemessenen Niveau an und überzeugen mit unserer Pünktlichkeit. Dabei spielt es für uns keine Rolle, was Sie transportieren möchten. Kunst ist bei uns ebenso möglich wie Maschinen. Wir sind ein Kurierdienst, der wirklich etwas bewegt.
-Bei uns sind Sie richtig, wenn alles pünktlich und ordnungsgemäß am Zielort ankommen soll. Auf unsere erstklassige Qualität können Sie sich verlassen. Und wir sind ein Unternehmen, das Verantwortung für seine Kunden, die Mitarbeiter und die Umwelt übernimmt. Wenn das für Sie überzeugend klingt und Sie an maßgeschneiderten Transportlösungen interessiert sind, freuen wir uns jetzt auf Ihre Anfrage.
+        Wir bieten Ihnen zahlreiche Vorteile. Unsere transparenten und fairen Preise sowie unsere Pünktlichkeit überzeugen auf ganzer Linie. Ob Kunstwerke, Maschinen oder andere Güter – wir transportieren alles mit größter Sorgfalt. Als Kurierdienst, der wirklich etwas bewegt, stellen wir sicher, dass Ihre Sendungen pünktlich und ordnungsgemäß am Zielort ankommen. Unsere erstklassige Qualität und unser Engagement für Kunden, Mitarbeiter und Umwelt machen uns zu einem verlässlichen Partner. Wenn Sie maßgeschneiderte Transportlösungen suchen, freuen wir uns auf Ihre Anfrage.
         </p>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { Title } from "@solidjs/meta";
+import { email, phonenumber } from "~/lib/data";
 
 export default function Impressum() {
   return (
@@ -26,6 +27,7 @@ export default function Impressum() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Impressum</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">HINWEIß: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
         <p>
         Angaben gemäß § 5 TMG:
         </p>
@@ -33,18 +35,18 @@ export default function Impressum() {
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Anschrift:</h2>
         <p>
-        SKY TRANSPORT<br/>
-        Rhönweg 13<br/>
-        30657 Hannover<br/>
-        USt.-ID: 25/107/06173<br/>
-        Geschäftsinhaber: Murad Buroo
+        Rasch Logistics Express<br/>
+        ?<br/>
+        ?<br/>
+        USt.-ID: ?<br/>
+        Geschäftsinhaber: ?
         </p>
       </div>
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Kontakt</h2>
         <p>
-        E-Mail: info@example.de <br/>
-        Tel.: 0123 4567890
+        E-Mail: {email} <br/>
+        Tel.: {phonenumber}
         </p>
       </div>
       <div class="my-10">

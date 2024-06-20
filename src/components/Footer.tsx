@@ -8,6 +8,7 @@ import { email, openingDays, openingHours, phonenumber } from "~/lib/data";
 export default function Footer() {
   return (
     <footer class="w-full text-gray-200 bg-sky-700">
+      <h2 class=" text-xl lg:text-2xl my-2">HINWEIß: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
       <ul class="flex flex-col lg:flex-row px-5 py-2">
 
         <li class="w-full p-5">
