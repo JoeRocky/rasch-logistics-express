@@ -6,9 +6,11 @@ import "@fontsource/inter"
 import "~/output.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import { ColorModeProvider } from "@kobalte/core";
 
 export default function App() {
   return (
+    <ColorModeProvider>
     <Router 
         base={import.meta.env.SERVER_BASE_URL}
         root={(props) => (
@@ -21,5 +23,6 @@ export default function App() {
     >
       <FileRoutes />
     </Router>
+    </ColorModeProvider>
   );
 }
