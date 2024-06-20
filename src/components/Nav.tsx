@@ -12,6 +12,7 @@ import {
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import {FaSolidBars} from "./icons/solidicons";
+import { companyName } from "~/lib/data";
 
 export default function Nav() {
   const location = useLocation();
@@ -45,10 +46,10 @@ export default function Nav() {
         <SheetContent position={"right"} class="bg-sky-700">
           <SheetHeader>
             <SheetTitle class="text-gray-200">
-              Rasch
+              {companyName.split(" ")[0]}
             </SheetTitle>
             <SheetDescription class="text-gray-200">
-            Logistics Express
+              {companyName.split(" ").slice(1).join(" ")}
             </SheetDescription>
           </SheetHeader>
 

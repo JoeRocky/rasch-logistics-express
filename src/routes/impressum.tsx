@@ -1,10 +1,10 @@
 import { Title } from "@solidjs/meta";
-import { email, phonenumber } from "~/lib/data";
+import { companyName, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr, ustid } from "~/lib/data";
 
 export default function Impressum() {
   return (
   <>
-    <Title>Impressum - Rasch Logistics Express</Title>
+    <Title>Impressum - {companyName}</Title>
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
@@ -35,11 +35,11 @@ export default function Impressum() {
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Anschrift:</h2>
         <p>
-        Rasch Logistics Express<br/>
-        ?<br/>
-        ?<br/>
-        USt.-ID: ?<br/>
-        Geschäftsinhaber: ?
+        {companyName}<br/>
+        {strasse_hnr}<br/>
+        {plz_ort}<br/>
+        USt.-ID: {ustid}<br/>
+        Geschäftsinhaber: {geschäftsinhaber}
         </p>
       </div>
       <div class="my-10">

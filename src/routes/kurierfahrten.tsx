@@ -1,10 +1,11 @@
 import { Title } from "@solidjs/meta";
 import { A } from "@solidjs/router";
+import { companyName } from "~/lib/data";
 
 export default function Kurierfahrten() {
   return (
   <>
-  <Title>Kurierfahrten - Rasch Logistics Express</Title>
+  <Title>Kurierfahrten - {companyName}</Title>
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">

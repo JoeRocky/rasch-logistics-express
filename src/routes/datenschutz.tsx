@@ -1,10 +1,10 @@
 import { Title } from "@solidjs/meta";
-import { email, phonenumber } from "~/lib/data";
+import { companyName, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr } from "~/lib/data";
 
 export default function Datenschutz() {
   return (
   <>
-    <Title>Datenschutz - Raschistics Express</Title>
+    <Title>Datenschutz - {companyName}</Title>
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
@@ -40,10 +40,10 @@ export default function Datenschutz() {
       </div>
       <div class="my-10">
         <p>
-        Rasch Logistics Express<br/>
-        ?<br/>
-        ?<br/>
-        Geschäftsinhaber: ?<br/>
+        {companyName}<br/>
+        {strasse_hnr}<br/>
+        {plz_ort}<br/>
+        Geschäftsinhaber: {geschäftsinhaber}<br/>
         E-Mail: {email}<br/>
         Tel.: {phonenumber}
         </p>

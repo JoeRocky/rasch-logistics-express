@@ -2,13 +2,13 @@ import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Textarea } from "~/components/ui/textarea";
 import { FaSolidPhone, FiMail} from "../components/icons/solidicons";
-import { email, phonenumber } from "~/lib/data";
+import { companyName, email, phonenumber } from "~/lib/data";
 import { Title } from "@solidjs/meta";
 
 export default function Kontakt() {
   return (
   <>
-    <Title>Kontakt - Rasch Logistics Express</Title>
+    <Title>Kontakt - {companyName}</Title>
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
@@ -28,7 +28,7 @@ export default function Kontakt() {
       </div>
     </header>
     
-    <section class="mx-auto text-gray-200 overflow-hidden h-[90vh] px-[10%] sm:px-[20%] md:px-[25%] lg:px-[30%] xl:px-[35%]">
+    <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%] lg:px-[30%] xl:px-[35%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Kontaktdaten:</h2>
         <h2 class=" text-xl lg:text-2xl my-2">HINWEIß: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
