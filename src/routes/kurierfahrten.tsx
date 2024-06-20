@@ -1,16 +1,33 @@
-import { Title } from "@solidjs/meta";
-import { A } from "@solidjs/router";
-import { companyName } from "~/lib/data";
+import { Meta, Title } from "@solidjs/meta";
+import { companyName, domain, domainPostfix } from "~/lib/data";
 
 export default function Kurierfahrten() {
   return (
   <>
-  <Title>Kurierfahrten - {companyName}</Title>
+    <Title>Kurierfahrten - {companyName}</Title>
+
+    {/* Meta Tags */}
+    <Meta name="description" content="Ihr Partner für schnelle und zuverlässige Kurierfahrten. Nutzen Sie unseren Kurierdienst für Same Day Delivery und maßgeschneiderte Transportlösungen." />
+    <Meta name="keywords" content="Kurierfahrten, Kurierdienst, Direktfahrten, Same Day Delivery, Transportlösungen, schnelle Transporte, zuverlässige Kurierdienste" />
+    
+    <Meta property="og:title" content={"Kurierfahrten - " + companyName} />
+    <Meta property="og:description" content="Ihr Partner für schnelle und zuverlässige Kurierfahrten. Nutzen Sie unseren Kurierdienst für Same Day Delivery und maßgeschneiderte Transportlösungen." />
+    <Meta property="og:image" content={domain + "/title_img_kurierfahrten.jpg"} />
+    <Meta property="og:url" content={domain}/>
+    <Meta property="og:type" content="website"/>
+
+    <Meta name="twitter:card" content="summary_large_image"/>
+    <Meta name="twitter:title" content={"Kurierfahrten - " + companyName} />
+    <Meta name="twitter:description" content="Ihr Partner für schnelle und zuverlässige Kurierfahrten. Nutzen Sie unseren Kurierdienst für Same Day Delivery und maßgeschneiderte Transportlösungen." />
+    <Meta name="twitter:image" content={domain + "/title_img_kurierfahrten.jpg"} />
+
+
+
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={import.meta.env.SERVER_BASE_URL + "/title_img_kurierfahrten.jpg"}
+          src={domainPostfix + "/title_img_kurierfahrten.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />

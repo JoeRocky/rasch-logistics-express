@@ -9,12 +9,13 @@ import Footer from "./components/Footer";
 import { ColorModeProvider } from "@kobalte/core";
 import { MetaProvider } from "@solidjs/meta";
 import { Toaster } from "./components/ui/toast";
+import { domainPostfix } from "~/lib/data";
 
 export default function App() {
   return (
     <ColorModeProvider>
     <Router
-        base={import.meta.env.SERVER_BASE_URL}
+        base={domainPostfix}
         root={(props) => (
         <>
           <Nav/>

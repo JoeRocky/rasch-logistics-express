@@ -1,15 +1,33 @@
-import { Title } from "@solidjs/meta";
-import { companyName } from "~/lib/data";
+import { Meta, Title } from "@solidjs/meta";
+import { companyName, domain, domainPostfix } from "~/lib/data";
 
 export default function Transporte() {
   return (
   <>
     <Title>Transporte - {companyName}</Title>
+    
+    {/* Meta Tags */}
+    <Meta name="description" content="Wir bieten flexible und maßgeschneiderte Transportlösungen in ganz Deutschland. Vertrauen Sie auf unsere Erfahrung und erstklassigen Service." />
+    <Meta name="keywords" content="Transportfahrten, flexible Transportlösungen, Sondertransporte, Logistik, sichere Transporte, Deutschland, maßgeschneiderte Lösungen" />
+
+    <Meta property="og:title" content={"Transporte - " + companyName} />
+    <Meta property="og:description" content="Wir bieten flexible und maßgeschneiderte Transportlösungen in ganz Deutschland. Vertrauen Sie auf unsere Erfahrung und erstklassigen Service." />
+    <Meta property="og:image" content={domain + "/title_img_transporte.jpg"} />
+    <Meta property="og:url" content={domain} />
+    <Meta property="og:type" content="website" />
+
+    <Meta name="twitter:card" content="summary_large_image" />
+    <Meta name="twitter:title" content={"Transporte - " + companyName} />
+    <Meta name="twitter:description" content="Wir bieten flexible und maßgeschneiderte Transportlösungen in ganz Deutschland. Vertrauen Sie auf unsere Erfahrung und erstklassigen Service." />
+    <Meta name="twitter:image" content={domain + "/title_img_transporte.jpg"} />
+
+
+
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={import.meta.env.SERVER_BASE_URL + "/title_img_transporte.jpg"}
+          src={domainPostfix + "/title_img_transporte.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />

@@ -1,5 +1,5 @@
 import { Title } from "@solidjs/meta";
-import { companyName, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr, ustid } from "~/lib/data";
+import { companyName, domainPostfix, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr, ustid } from "~/lib/data";
 
 export default function Impressum() {
   return (
@@ -9,7 +9,7 @@ export default function Impressum() {
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={import.meta.env.SERVER_BASE_URL + "/title_img_impressum.jpg"}
+          src={domainPostfix + "/title_img_impressum.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />

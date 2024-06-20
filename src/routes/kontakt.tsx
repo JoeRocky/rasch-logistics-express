@@ -2,8 +2,8 @@ import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Textarea } from "~/components/ui/textarea";
 import { FaSolidPhone, FiMail} from "../components/icons/solidicons";
-import { companyName, email, phonenumber } from "~/lib/data";
-import { Title } from "@solidjs/meta";
+import { companyName, domain, domainPostfix, email, phonenumber } from "~/lib/data";
+import { Meta, Title } from "@solidjs/meta";
 import { createSignal } from "solid-js";
 import { showToast } from "~/components/ui/toast";
 
@@ -89,11 +89,29 @@ export default function Kontakt() {
   return (
   <>
     <Title>Kontakt - {companyName}</Title>
+
+    {/* Meta Tags */}
+    <Meta name="description" content="Kontaktieren sie uns. Ihr Partner für schnelle und zuverlässige Kurierfahrten." />
+    <Meta name="keywords" content="Kurierfahrten, Kurierdienst, Direktfahrten, Same Day Delivery, Transportlösungen, schnelle Transporte, zuverlässige Kurierdienste" />
+    
+    <Meta property="og:title" content={"Kontakt - " + companyName} />
+    <Meta property="og:description" content="Kontaktieren sie uns. Ihr Partner für schnelle und zuverlässige Kurierfahrten." />
+    <Meta property="og:image" content={domain + "/title_img_kontakt.jpg"} />
+    <Meta property="og:url" content={domain}/>
+    <Meta property="og:type" content="website"/>
+
+    <Meta name="twitter:card" content="summary_large_image"/>
+    <Meta name="twitter:title" content={"Kontakt - " + companyName} />
+    <Meta name="twitter:description" content="Kontaktieren sie uns. Ihr Partner für schnelle und zuverlässige Kurierfahrten." />
+    <Meta name="twitter:image" content={domain + "/title_img_kontakt.jpg"} />
+
+
+    
     <header class="text-center mx-auto text-gray-200 h-[30vh] max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={import.meta.env.SERVER_BASE_URL + "/title_img_kontakt.jpg"}
+          src={domainPostfix + "/title_img_kontakt.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />

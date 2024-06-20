@@ -1,19 +1,38 @@
-import { Title } from "@solidjs/meta";
+import { Meta, Title } from "@solidjs/meta";
 import { A } from "@solidjs/router";
+import { createSignal, onMount } from "solid-js";
 import { twMerge } from "tailwind-merge";
 import { buttonVariants } from "~/components/ui/button";
-import { companyName } from "~/lib/data";
+import { companyName, domain, domainPostfix } from "~/lib/data";
 import { insertLineBreaks } from "~/lib/utils";
 
 export default function Home() {
   return (
   <>
     <Title>Home - {companyName}</Title>
+
+    {/* Meta Tags */}
+    <Meta name="description" content="Ihr zuverlässiger Partner für bundesweite Transportaufträge. Professionelle Dienstleistungen für sichere und pünktliche Lieferungen. Kontaktieren Sie uns jetzt!" />
+    <Meta name="keywords" content="Transport, Kurierdienst, Sonderfahrten, Transportlösungen, Deutschland, Logistik, Eilaufträge, sichere Transporte, professionelle Dienstleistungen" />
+    
+    <Meta property="og:title" content={"Home - " + companyName} />
+    <Meta property="og:description" content="Ihr Partner für Transportlösungen - Verlässliche und schnelle Transporte" />
+    <Meta property="og:image" content={domain + "/title_img_home.jpg"} />
+    <Meta property="og:url" content={domain} />
+    <Meta property="og:type" content="website" />
+    
+    <Meta name="twitter:card" content="summary_large_image" />
+    <Meta name="twitter:title" content={"Home - " + companyName} />
+    <Meta name="twitter:description" content="Ihr Partner für Transportlösungen - Verlässliche und schnelle Transporte" />
+    <Meta name="twitter:image" content={domain + "/title_img_home.jpg"} />
+    
+
+    
     <header class="text-center mx-auto text-gray-200 h-[90vh] max-h-[90vh] overflow-hidden">
       {/* Background */}
       <div class="absolute w-full h-full max-h-[90vh] overflow-hidden flex justify-center items-center">
         <img
-          src={import.meta.env.SERVER_BASE_URL + "/title_img_home.jpg"}
+          src={domainPostfix + "/title_img_home.jpg"}
           class="flex-shrink-0 min-h-full min-w-full max-h-[90vh] md:max-h-none max-w-none md:max-w-full"
           alt="Solid"
         />
@@ -29,7 +48,7 @@ export default function Home() {
           {insertLineBreaks(companyName)}
           </h1>
           <div class="flex flex-col sm:flex-row justify-start items-center my-2">
-            <img class="my-2 sm:my-0 mx-8 w-20 h-20" width="256" height="256" src={import.meta.env.SERVER_BASE_URL + "/icon.svg"} alt="icon" />
+            <img class="my-2 sm:my-0 mx-8 w-20 h-20" width="256" height="256" src={domainPostfix + "/icon.svg"} alt="icon" />
             <A href={"/kontakt"} class={twMerge(buttonVariants({size: "lg"}), "mx-2 font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 ")}>
               Kontaktiere uns
             </A>

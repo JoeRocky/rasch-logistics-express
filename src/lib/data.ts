@@ -1,3 +1,7 @@
+export const domainBase = "https://joerocky.github.io/";
+export const domainPostfix = import.meta.env.SERVER_BASE_URL;
+export const domain = domainBase + domainPostfix;
+
 export const companyName = "Rasch Logistics Express"
 export const phonenumber = "+49 159 01409372";
 export const openingDays = "Montag bis Freitag";
