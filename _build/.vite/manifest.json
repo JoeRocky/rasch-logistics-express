@@ -99,7 +99,7 @@
     ]
   },
   "src/routes/datenschutz.tsx?pick=default&pick=$css": {
-    "file": "assets/datenschutz-JCxNhKzM.js",
+    "file": "assets/datenschutz-C7dnM3sF.js",
     "name": "datenschutz",
     "src": "src/routes/datenschutz.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -110,7 +110,7 @@
     ]
   },
   "src/routes/impressum.tsx?pick=default&pick=$css": {
-    "file": "assets/impressum-C_bl9ujI.js",
+    "file": "assets/impressum-BT7nJrIN.js",
     "name": "impressum",
     "src": "src/routes/impressum.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -134,7 +134,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-CmSJ3sHT.js",
+    "file": "assets/kontakt-CMTF4768.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -169,7 +169,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-Bcrpj-NP.js",
+    "file": "assets/client-crNropt3.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
