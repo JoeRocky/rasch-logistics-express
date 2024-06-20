@@ -7,6 +7,7 @@ import "~/output.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import { ColorModeProvider } from "@kobalte/core";
+import { MetaProvider } from "@solidjs/meta";
 
 export default function App() {
   return (
@@ -16,7 +17,9 @@ export default function App() {
         root={(props) => (
         <>
             <Nav/>
+            <MetaProvider>
             <Suspense>{props.children}</Suspense>
+            </MetaProvider>
             <Footer/>
         </>
         )}
