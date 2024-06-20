@@ -2,7 +2,7 @@ import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Textarea } from "~/components/ui/textarea";
 import { FaSolidPhone, FiMail} from "../components/icons/solidicons";
-import { email, phonenumber, preurl } from "~/lib/data";
+import { email, phonenumber } from "~/lib/data";
 
 export default function Kontakt() {
   return (
@@ -11,7 +11,7 @@ export default function Kontakt() {
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={preurl + "/title_img_kontakt.jpg"}
+          src={"/title_img_kontakt.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />

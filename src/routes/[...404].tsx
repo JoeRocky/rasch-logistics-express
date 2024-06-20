@@ -1,5 +1,4 @@
 import { A } from "@solidjs/router";
-import { preurl } from "~/lib/data";
 
 export default function NotFound() {
   return (
@@ -9,7 +8,7 @@ export default function NotFound() {
       </h1>
       <p class="my-4 text-gray-200 text-lg">
         Go back to {" "}
-        <A href={preurl + "/"} class="text-sky-600 hover:underline">
+        <A href="/" class="text-sky-600 hover:underline">
           Home
         </A>
       </p>

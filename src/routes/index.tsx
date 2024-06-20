@@ -1,7 +1,6 @@
 import { A } from "@solidjs/router";
 import { twMerge } from "tailwind-merge";
 import { buttonVariants } from "~/components/ui/button";
-import { preurl } from "~/lib/data";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       {/* Background */}
       <div class="absolute w-full h-full max-h-[90vh] overflow-hidden flex justify-center items-center">
         <img
-          src={preurl + "/title_img_home.jpg"}
+          src={"/title_img_home.jpg"}
           class="flex-shrink-0 min-h-full min-w-full max-h-[90vh] md:max-h-none max-w-none md:max-w-full"
           alt="Solid"
         />
@@ -48,7 +47,7 @@ export default function Home() {
                 <path class="fill-gray-200" d="M 65.745 36.186 H 55.228 c -1.104 0 -2 -0.896 -2 -2 s 0.896 -2 2 -2 h 10.518 c 1.104 0 2 0.896 2 2 S 66.85 36.186 65.745 36.186 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10;  fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
               </g>
             </svg>
-            <A href={preurl + "/kontakt"} class={twMerge(buttonVariants({size: "lg"}), "mx-2 font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 ")}>
+            <A href={"/kontakt"} class={twMerge(buttonVariants({size: "lg"}), "mx-2 font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 ")}>
               Kontaktiere uns
             </A>
           </div>
