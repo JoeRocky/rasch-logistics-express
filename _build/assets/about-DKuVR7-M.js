@@ -1,1 +1,0 @@
-import{t as n,D as i,z as l,j as o,y as s,T as m}from"./index-B1Sqqkd-.js";var u=s("<main><!$><!/><h1>About");function p(){return(()=>{var e=n(u),r=e.firstChild,[t,a]=i(r.nextSibling);return t.nextSibling,l(e,o(m,{children:"About"}),t,a),e})()}export{p as default};
