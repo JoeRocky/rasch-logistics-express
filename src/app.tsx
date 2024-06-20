@@ -14,7 +14,7 @@ export default function App() {
   return (
     <ColorModeProvider>
     <Router 
-        data-pg-theme="custom" data-pg-color-scheme="dark"
+        data-pg-color-scheme="dark"
         base={import.meta.env.SERVER_BASE_URL}
         root={(props) => (
         <>
