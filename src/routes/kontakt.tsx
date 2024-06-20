@@ -67,7 +67,7 @@ export default function Kontakt() {
         </div>
       </div>
 
-      <form action="https://formsubmit.co/joemaxrocky@gmail.com" method="post">
+      <form action="https://formsubmit.co/6357ec210bee13006fd818cdeb5a20d7 " method="post">
         <input type="hidden" name="_next" value={import.meta.env.BASE_URL + "/thanks"}></input>
         <input type="hidden" name="_captcha" value="false"></input>
         <input type="text" name="_honey" style="display:none"></input>
