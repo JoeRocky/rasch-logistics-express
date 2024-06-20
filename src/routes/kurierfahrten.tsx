@@ -9,7 +9,7 @@ export default function Kurierfahrten() {
       {/* Background */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-end items-end">
         <img
-          src={"./title_img_kurierfahrten.jpg"}
+          src={import.meta.env.SERVER_BASE_URL + "/title_img_kurierfahrten.jpg"}
           class="flex-shrink-0 min-w-full min-h-full max-h-none max-w-full"
           alt="Solid"
         />
