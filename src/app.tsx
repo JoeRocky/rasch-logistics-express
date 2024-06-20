@@ -13,8 +13,7 @@ import { Toaster } from "./components/ui/toast";
 export default function App() {
   return (
     <ColorModeProvider>
-    <Router 
-        data-pg-color-scheme="dark"
+    <Router
         base={import.meta.env.SERVER_BASE_URL}
         root={(props) => (
         <>
