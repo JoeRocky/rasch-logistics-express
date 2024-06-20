@@ -25,8 +25,8 @@ export default function Home() {
       {/* Title */}
       <div class="absolute w-full h-full max-h-[90vh] p-20 sm:p-32 md:p-48 xl:p-64 overflow-hidden flex justify-center sm:justify-start items-start sm:items-center">
         <div class="flex flex-col">
-          <h1 class="text-gray-200 drop-shadow-[0px_0px_10px_rgba(0,0,0,1)] xl:drop-shadow-none uppercase text-center sm:text-left text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-[4rem] sm:leading-[5rem] md:leading-[6rem] xl:leading-[8rem]" 
-          innerHTML={insertLineBreaks(companyName)}>
+          <h1 class="text-gray-200 drop-shadow-[0px_0px_10px_rgba(0,0,0,1)] xl:drop-shadow-none uppercase text-center sm:text-left text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-[4rem] sm:leading-[5rem] md:leading-[6rem] xl:leading-[8rem]">
+          {insertLineBreaks(companyName)}
           </h1>
           <div class="flex flex-col sm:flex-row justify-start items-center my-2">
             <img class="my-2 sm:my-0 mx-8 w-20 h-20" width="256" height="256" src={import.meta.env.SERVER_BASE_URL + "/icon.svg"} alt="icon" />
