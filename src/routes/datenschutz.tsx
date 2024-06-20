@@ -27,7 +27,7 @@ export default function Datenschutz() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Datenschutzerklärung</h2>
-        <h2 class=" text-xl lg:text-2xl my-2">HINWEIß: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
+        <h2 class=" text-xl lg:text-2xl my-2">HINWEIS: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Hinweise und Dokumente noch nicht gültig</h2>
         <p>
         Allgemeiner Hinweis und Pflichtinformationen
         </p>
