@@ -35,60 +35,6 @@ export default function Kontakt() {
         title: "Email versand in Arbeit...",
       });
       console.log("Email versand in Arbeit...");
-      
-      /*
-      fetch("https://formsubmit.co/ajax/joemaxrocky@gmail.com", {
-        method: "POST",
-        headers: { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-      },
-      body: JSON.stringify({
-          name: firstName() + " " + lastName(),
-          email: emailAddress(),
-          message: 
-            firstName() + " " + lastName() + "\n" + 
-            "Email: " + emailAddress() + "\n" + 
-            "Telefon: " + ((phoneNumber() == "") ? "?" : phoneNumber()) + "\n\n" + 
-            message(),
-          _template: "box",
-      })
-      })
-      .then(response => response.json()
-        .then(data => {
-          if (data.success) {
-            showToast({
-              title: "Erfolg!",
-              description: "die Email wurde gesendet.",
-              variant: "success",
-            })
-            console.log("Erfolg!");
-          } else {
-            showToast({
-              title: "Error:",
-              description: "Email konte nicht gesendet werden.",
-              variant: "error",
-            })
-            console.log("Error: response");
-          }
-        })
-        .catch(error => {
-          showToast({
-            title: "Error:",
-            description: "Email konte nicht gesendet werden.",
-            variant: "error",
-          })
-          console.log("Error: response json fetch");
-        })
-      ).catch(error => {
-        showToast({
-          title: "Error:",
-          description: "Email konte nicht gesendet werden.",
-          variant: "error",
-        })
-        console.log("Error: fetch");
-      });
-      */
 
       fetch("https://rockendorf.eu:8001/send_mail_to_info_rasch_logistics_express", {
         method: "POST",
@@ -101,37 +47,27 @@ export default function Kontakt() {
           name: firstName() + " " + lastName(),
           email: emailAddress(),
           phonenumber: ((phoneNumber() == "") ? "?" : phoneNumber()),
-          subject: "Test Subject",
+          subject: subject(),
           text: message(),
       })
       })
-      .then(response => response.json()
-        .then(data => {
-          if (data.success) {
-            showToast({
-              title: "Erfolg!",
-              description: "die Email wurde gesendet.",
-              variant: "success",
-            })
-            console.log("Erfolg!");
-          } else {
-            showToast({
-              title: "Error:",
-              description: "Email konte nicht gesendet werden.",
-              variant: "error",
-            })
-            console.log("Error: response");
-          }
-        })
-        .catch(error => {
+      .then(response => {
+        if (response.ok) {
+          showToast({
+            title: "Erfolg!",
+            description: "die Email wurde gesendet.",
+            variant: "success",
+          })
+          console.log("Erfolg!");
+        } else {
           showToast({
             title: "Error:",
             description: "Email konte nicht gesendet werden.",
             variant: "error",
           })
-          console.log("Error: response json fetch");
-        })
-      ).catch(error => {
+          console.log("Error: response");
+        }
+      }).catch(error => {
         showToast({
           title: "Error:",
           description: "Email konte nicht gesendet werden.",
@@ -142,7 +78,6 @@ export default function Kontakt() {
 
     }
   }
-
 
   return (
   <>
