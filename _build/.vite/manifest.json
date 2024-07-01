@@ -135,7 +135,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-7lKvmqc9.js",
+    "file": "assets/kontakt-DttFWEH4.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -170,7 +170,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BiLnkd24.js",
+    "file": "assets/client-DIL49ZKq.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -191,7 +191,7 @@
       "src/routes/transporte.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-BMXX8b-g.css"
+      "assets/client-C0oW9-bp.css"
     ],
     "assets": [
       "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
