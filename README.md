@@ -30,5 +30,5 @@ Source-Code for the Rasch Logistics Express Website
 - [ ] Website Fertig stellen
 - [x] Warnhinweise entfernen
 - [x] Neue Domain verbinden
-- [ ] Richtige Email verbinden
+- [x] Richtige Email verbinden
 - [x] BASE_PATH anpassen

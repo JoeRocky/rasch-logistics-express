@@ -150,7 +150,7 @@ export default function Kontakt() {
           <Input type="telefon" id="telefon" placeholder="Telefon" onChange={(e) => setPhoneNumber(e.currentTarget.value)}/>
         </div>
         <div class="w-full my-2">
-          <Input class={subjectMissing() ? "border-error-foreground" : "border-input"} type="subject" id="subject" placeholder="Subject *" onChange={(e) => setSubject(e.currentTarget.value)}/>
+          <Input class={subjectMissing() ? "border-error-foreground" : "border-input"} type="subject" id="subject" placeholder="Betreff *" onChange={(e) => setSubject(e.currentTarget.value)}/>
         </div>
         <div class="w-full my-2">
           <Textarea class={messageMissing() ? "border-error-foreground" : "border-input"} placeholder="Nachricht *" onChange={(e) => setMessage(e.currentTarget.value)}/>
