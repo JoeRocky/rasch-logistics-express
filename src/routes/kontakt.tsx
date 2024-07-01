@@ -129,7 +129,7 @@ export default function Kontakt() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%] lg:px-[30%] xl:px-[35%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Kontaktdaten:</h2>
-        <h2 class=" text-xl lg:text-2xl my-2">HINWEIS: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Dokumente noch nicht gültig</h2>
+        
         <div class="flex items-center py-2">
           <div class="mx-2">
             <FiMail/>

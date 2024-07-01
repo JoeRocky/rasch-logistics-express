@@ -1,5 +1,5 @@
 import { Title } from "@solidjs/meta";
-import { companyName, domainPostfix, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr, ustid } from "~/lib/data";
+import { companyName, domainPostfix, email, geschäftsinhaber, legalCompanyName, phonenumber, plz_ort, strasse_hnr, ustid } from "~/lib/data";
 
 export default function Impressum() {
   return (
@@ -27,7 +27,7 @@ export default function Impressum() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Impressum</h2>
-        <h2 class=" text-xl lg:text-2xl my-2">HINWEIS: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Dokumente noch nicht gültig</h2>
+        
         <p>
         Angaben gemäß § 5 TMG:
         </p>
@@ -35,7 +35,7 @@ export default function Impressum() {
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Anschrift:</h2>
         <p>
-        {companyName}<br/>
+        {legalCompanyName}<br/>
         {strasse_hnr}<br/>
         {plz_ort}<br/>
         USt.-ID: {ustid}<br/>

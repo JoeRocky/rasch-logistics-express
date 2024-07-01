@@ -1,5 +1,5 @@
 import { Title } from "@solidjs/meta";
-import { companyName, domainPostfix, email, geschäftsinhaber, phonenumber, plz_ort, strasse_hnr } from "~/lib/data";
+import { companyName, domainPostfix, email, geschäftsinhaber, legalCompanyName, phonenumber, plz_ort, strasse_hnr } from "~/lib/data";
 
 export default function Datenschutz() {
   return (
@@ -16,7 +16,7 @@ export default function Datenschutz() {
       </div>
 
       {/* Background Gradient */}
-      <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh]  bg-[rgba(0,0,0,0.5)] sm:bg-transparent sm:bg-gradient-to-r sm:from-[rgba(0,0,0,0.9)] sm:to-[rgba(0,0,0,0.0)]"></div>
+      <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh]  bg-[rgba(0,0,0,0.5)] sm:bg-transparent sm:bg-gradient-to-r sm:from-[rgba(15,12,12,0.9)] sm:to-[rgba(0,0,0,0.0)]"></div>
 
       {/* Title */}
       <div class="absolute w-full h-full max-h-[15vh] sm:max-h-[20vh] md:max-h-[25vh] lg:max-h-[30vh] overflow-hidden flex justify-center items-center pt-10">
@@ -27,7 +27,7 @@ export default function Datenschutz() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Datenschutzerklärung</h2>
-        <h2 class=" text-xl lg:text-2xl my-2">HINWEIS: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Dokumente noch nicht gültig</h2>
+        
         <p>
         Allgemeiner Hinweis und Pflichtinformationen
         </p>
@@ -40,7 +40,7 @@ export default function Datenschutz() {
       </div>
       <div class="my-10">
         <p>
-        {companyName}<br/>
+        {legalCompanyName}<br/>
         {strasse_hnr}<br/>
         {plz_ort}<br/>
         Geschäftsinhaber: {geschäftsinhaber}<br/>
