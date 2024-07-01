@@ -135,7 +135,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-DttFWEH4.js",
+    "file": "assets/kontakt-B0x0q1dB.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -170,7 +170,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DIL49ZKq.js",
+    "file": "assets/client-BxCmRqNU.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
