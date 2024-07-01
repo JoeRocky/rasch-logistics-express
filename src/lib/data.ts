@@ -1,4 +1,4 @@
-export const domainBase = "https://joerocky.github.io/";
+export const domainBase = "https://rasch-logistics-express.de/";
 export const domainPostfix = import.meta.env.SERVER_BASE_URL;
 export const domain = domainBase + domainPostfix;
 
