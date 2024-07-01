@@ -41,7 +41,6 @@ export default function Kontakt() {
         headers: { 
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'Referer': 'https://rasch-logistics-express.de/kontakt'
       },
       body: JSON.stringify({
           name: firstName() + " " + lastName(),
