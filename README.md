@@ -19,16 +19,16 @@ Source-Code for the Rasch Logistics Express Website
 - [ ] Alle Kontaktdaten hinzufügen
   - [x] Öffnungszeiten
   - [x] Telefonnummer
-  - [ ] Email-Adresse
-  - [ ] Rechtlicher Unternehmensname
+  - [x] Email-Adresse
+  - [x] Geschäftsinhaber
+  - [x] Rechtlicher Unternehmensname
   - [ ] Anschrift
   - [ ] USt.-ID
-  - [ ] Geschäftsinhaber
 - [ ] Neues Impressum hinzufügen
 - [ ] Neue Datenschutzerklärung hinzufügen
 ### Abschluss
 - [ ] Website Fertig stellen
-- [ ] Warnhinweise entfernen
-- [ ] Neue Domain verbinden
-- [ ] Richtige Email verbinden
-- [ ] BASE_PATH anpassen9
+- [x] Warnhinweise entfernen
+- [x] Neue Domain verbinden
+- [x] Richtige Email verbinden
+- [x] BASE_PATH anpassen

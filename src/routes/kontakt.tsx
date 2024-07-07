@@ -13,68 +13,60 @@ export default function Kontakt() {
   const [lastName, setLastName] = createSignal("");
   const [emailAddress, setEmailAddress] = createSignal("");
   const [phoneNumber, setPhoneNumber] = createSignal("");
+  const [subject, setSubject] = createSignal("");
   const [message, setMessage] = createSignal("");
 
   const [firstNameMissing, setFirstNameMissing] = createSignal(false);
   const [lastNameMissing, setLastNameMissing] = createSignal(false);
   const [emailAddressMissing, setEmailAddressMissing] = createSignal(false);
+  const [subjectMissing, setSubjectMissing] = createSignal(false);
   const [messageMissing, setMessageMissing] = createSignal(false);
 
   function sendMessage() {
     if (firstName() == "") {setFirstNameMissing(true);} else {setFirstNameMissing(false);}
     if (lastName() == "") {setLastNameMissing(true);} else {setLastNameMissing(false);}
     if (emailAddress() == "") {setEmailAddressMissing(true);} else {setEmailAddressMissing(false);}
+    if (subject() == "") {setSubjectMissing(true);} else {setSubjectMissing(false);}
     if (message() == "") {setMessageMissing(true);} else {setMessageMissing(false);}
 
-    if (!(firstNameMissing() || lastNameMissing() || emailAddressMissing() || messageMissing())) {
+    if (!(firstNameMissing() || lastNameMissing() || emailAddressMissing() || messageMissing() || subjectMissing())) {
 
       showToast({
         title: "Email versand in Arbeit...",
       });
       console.log("Email versand in Arbeit...");
-      
-      fetch("https://formsubmit.co/ajax/joemaxrocky@gmail.com", {
+
+      fetch("https://rockendorf.eu:8001/send_mail_to_info_rasch_logistics_express", {
         method: "POST",
         headers: { 
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
+          'Accept': 'application/json',
       },
       body: JSON.stringify({
           name: firstName() + " " + lastName(),
           email: emailAddress(),
-          message: firstName() + " " + lastName() + "\n" + 
-            "Email: " + emailAddress() + "\n" + 
-            "Telefon: " + ((phoneNumber() == "") ? "?" : phoneNumber()) + "\n\n" + 
-            message(),
+          phonenumber: ((phoneNumber() == "") ? "?" : phoneNumber()),
+          subject: subject(),
+          text: message(),
       })
-    })
-      .then(response => response.json()
-        .then(data => {
-          if (data.success) {
-            showToast({
-              title: "Erfolg!",
-              description: "die Email wurde gesendet.",
-              variant: "success",
-            })
-            console.log("Erfolg!");
-          } else {
-            showToast({
-              title: "Error:",
-              description: "Email konte nicht gesendet werden.",
-              variant: "error",
-            })
-            console.log("Error: response");
-          }
-        })
-        .catch(error => {
+      })
+      .then(response => {
+        if (response.ok) {
+          showToast({
+            title: "Erfolg!",
+            description: "die Email wurde gesendet.",
+            variant: "success",
+          })
+          console.log("Erfolg!");
+        } else {
           showToast({
             title: "Error:",
             description: "Email konte nicht gesendet werden.",
             variant: "error",
           })
-          console.log("Error: response json fetch");
-        })
-      ).catch(error => {
+          console.log("Error: response");
+        }
+      }).catch(error => {
         showToast({
           title: "Error:",
           description: "Email konte nicht gesendet werden.",
@@ -82,9 +74,9 @@ export default function Kontakt() {
         })
         console.log("Error: fetch");
       });
+
     }
   }
-
 
   return (
   <>
@@ -129,7 +121,7 @@ export default function Kontakt() {
     <section class="mx-auto text-gray-200 overflow-hidden px-[10%] sm:px-[20%] md:px-[25%] lg:px-[30%] xl:px-[35%]">
       <div class="my-10">
         <h2 class=" text-xl lg:text-2xl my-2">Kontaktdaten:</h2>
-        <h2 class=" text-xl lg:text-2xl my-2">HINWEIS: Diese Website ist ein Prototyp und die Kontaktdaten sowie alle rechtlichen Dokumente noch nicht gültig</h2>
+        
         <div class="flex items-center py-2">
           <div class="mx-2">
             <FiMail/>
@@ -156,6 +148,9 @@ export default function Kontakt() {
         </div>
         <div class="w-full my-2">
           <Input type="telefon" id="telefon" placeholder="Telefon" onChange={(e) => setPhoneNumber(e.currentTarget.value)}/>
+        </div>
+        <div class="w-full my-2">
+          <Input class={subjectMissing() ? "border-error-foreground" : "border-input"} type="subject" id="subject" placeholder="Betreff *" onChange={(e) => setSubject(e.currentTarget.value)}/>
         </div>
         <div class="w-full my-2">
           <Textarea class={messageMissing() ? "border-error-foreground" : "border-input"} placeholder="Nachricht *" onChange={(e) => setMessage(e.currentTarget.value)}/>
