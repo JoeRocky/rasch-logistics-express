@@ -10,6 +10,6 @@ export const openingHours = "08:00 bis 20:00 Uhr";
 
 export const email = "info@rasch-logistics-express.de"
 export const geschäftsinhaber = "Al-aliko, Farhad";
-export const strasse_hnr = "? ? (wird in Kürze ergänzt)";   // Todo
-export const plz_ort = "? ? (wird in Kürze ergänzt)";       // Todo
+export const strasse_hnr = "Deisterstraße 16";
+export const plz_ort = "30449 Hannover";
 export const ustid = "? (wird in Kürze ergänzt)";           // Todo

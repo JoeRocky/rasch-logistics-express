@@ -22,7 +22,7 @@ Source-Code for the Rasch Logistics Express Website
   - [x] Email-Adresse
   - [x] Geschäftsinhaber
   - [x] Rechtlicher Unternehmensname
-  - [ ] Anschrift
+  - [x] Anschrift
   - [ ] USt.-ID
 - [ ] Neues Impressum hinzufügen
 - [ ] Neue Datenschutzerklärung hinzufügen
