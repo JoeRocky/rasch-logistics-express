@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
           <div class="mx-2">
             <A href={"/kontakt"} class={twMerge(buttonVariants({variant: "outline"}), " font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 border-gray-200")}>
-              Kontaktier uns
+              Kontaktieren Sie uns!
             </A>
           </div>
         </li>

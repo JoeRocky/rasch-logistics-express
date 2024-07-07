@@ -50,7 +50,7 @@ export default function Home() {
           <div class="flex flex-col sm:flex-row justify-start items-center my-2">
             <img class="my-2 sm:my-0 mx-8 w-20 h-20" width="256" height="256" src={domainPostfix + "/icon.svg"} alt="icon" />
             <A href={"/kontakt"} class={twMerge(buttonVariants({size: "lg"}), "mx-2 font-bold bg-sky-700 hover:bg-gray-200 text-gray-200 hover:text-sky-700 ")}>
-              Kontaktiere uns
+              Kontaktieren Sie uns
             </A>
           </div>
         </div>
