@@ -122,7 +122,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BlOIEihO.js",
+    "file": "assets/index-B0GCl3hR.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -135,7 +135,7 @@
     ]
   },
   "src/routes/kontakt.tsx?pick=default&pick=$css": {
-    "file": "assets/kontakt-DNHypSXe.js",
+    "file": "assets/kontakt-D_Pm-atE.js",
     "name": "kontakt",
     "src": "src/routes/kontakt.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -148,7 +148,7 @@
     ]
   },
   "src/routes/kurierfahrten.tsx?pick=default&pick=$css": {
-    "file": "assets/kurierfahrten-D_Ray3iA.js",
+    "file": "assets/kurierfahrten-BaYzTk0y.js",
     "name": "kurierfahrten",
     "src": "src/routes/kurierfahrten.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -159,7 +159,7 @@
     ]
   },
   "src/routes/transporte.tsx?pick=default&pick=$css": {
-    "file": "assets/transporte-T6BpdMOv.js",
+    "file": "assets/transporte-DZHpLjAc.js",
     "name": "transporte",
     "src": "src/routes/transporte.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -170,7 +170,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BFND5KG-.js",
+    "file": "assets/client-CZXwMsmu.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
