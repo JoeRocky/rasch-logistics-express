@@ -7,6 +7,8 @@ export default function Transporte() {
     <Title>Transporte - {companyName}</Title>
     
     {/* Meta Tags */}
+    <Meta name="author" content="Joseph Rockendorf" />
+    
     <Meta name="description" content="Wir bieten flexible und maßgeschneiderte Transportlösungen in ganz Deutschland. Vertrauen Sie auf unsere Erfahrung und erstklassigen Service." />
     <Meta name="keywords" content="Transportfahrten, flexible Transportlösungen, Sondertransporte, Logistik, sichere Transporte, Deutschland, maßgeschneiderte Lösungen" />
 

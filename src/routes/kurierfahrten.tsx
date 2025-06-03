@@ -7,6 +7,8 @@ export default function Kurierfahrten() {
     <Title>Kurierfahrten - {companyName}</Title>
 
     {/* Meta Tags */}
+    <Meta name="author" content="Joseph Rockendorf" />
+    
     <Meta name="description" content="Ihr Partner für schnelle und zuverlässige Kurierfahrten. Nutzen Sie unseren Kurierdienst für Same Day Delivery und maßgeschneiderte Transportlösungen." />
     <Meta name="keywords" content="Kurierfahrten, Kurierdienst, Direktfahrten, Same Day Delivery, Transportlösungen, schnelle Transporte, zuverlässige Kurierdienste" />
     

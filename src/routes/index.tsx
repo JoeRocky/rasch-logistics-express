@@ -12,6 +12,8 @@ export default function Home() {
     <Title>Home - {companyName}</Title>
 
     {/* Meta Tags */}
+    <Meta name="author" content="Joseph Rockendorf" />
+    
     <Meta name="description" content="Ihr zuverlässiger Partner für bundesweite Transportaufträge. Professionelle Dienstleistungen für sichere und pünktliche Lieferungen. Kontaktieren Sie uns jetzt!" />
     <Meta name="keywords" content="Transport, Kurierdienst, Sonderfahrten, Transportlösungen, Deutschland, Logistik, Eilaufträge, sichere Transporte, professionelle Dienstleistungen" />
     

@@ -83,6 +83,8 @@ export default function Kontakt() {
     <Title>Kontakt - {companyName}</Title>
 
     {/* Meta Tags */}
+    <Meta name="author" content="Joseph Rockendorf" />
+    
     <Meta name="description" content="Kontaktieren sie uns. Ihr Partner für schnelle und zuverlässige Kurierfahrten." />
     <Meta name="keywords" content="Kurierfahrten, Kurierdienst, Direktfahrten, Same Day Delivery, Transportlösungen, schnelle Transporte, zuverlässige Kurierdienste" />
     

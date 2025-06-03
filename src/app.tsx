@@ -20,7 +20,6 @@ export default function App() {
         <>
           <Nav/>
           <MetaProvider>
-          <Meta name="author" content="Joseph Rockendorf" />
           <Suspense>{props.children}</Suspense>
           </MetaProvider>
           <Footer/>
